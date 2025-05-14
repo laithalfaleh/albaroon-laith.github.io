@@ -1,50 +1,89 @@
-<!DOCTYPE html>
-<html lang="ar">
+<!DOCTYPE html><html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>البارون | مكتب قانوني ومقالات</title>
+    <title>البارون للقانون والتحكيم</title>
     <style>
-        body { font-family: Arial, sans-serif; direction: rtl; margin: 0; padding: 0; }
-        header { background-color: #2c3e50; color: white; padding: 20px; text-align: center; }
-        nav { display: flex; justify-content: center; background-color: #34495e; }
-        nav a { color: white; padding: 15px; text-decoration: none; }
-        nav a:hover { background-color: #2c3e50; }
-        main { padding: 20px; }
-        footer { background-color: #2c3e50; color: white; text-align: center; padding: 10px; }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 12px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>البارون | مكتب قانوني ومقالات</h1>
-    </header>
-    <nav>
-        <a href="#">الرئيسية</a>
-        <a href="#about">من نحن</a>
-        <a href="#services">الخدمات</a>
-        <a href="#articles">المقالات</a>
-        <a href="#contact">تواصل معنا</a>
-    </nav>
-    <main>
-        <section id="about">
-            <h2>من نحن</h2>
-            <p>مكتب البارون القانوني يقدم خدمات قانونية متكاملة في مجالات القانون الخاص وحماية المستهلك.</p>
-        </section>
-        <section id="services">
-            <h2>الخدمات</h2>
-            <p>الاستشارات القانونية، الترافع، إعداد العقود، تقديم بحوث قانونية.</p>
-        </section>
-        <section id="articles">
-            <h2>المقالات القانونية</h2>
-            <p>مجموعة من المقالات القانونية المتخصصة في حماية المستهلك والعقود.</p>
-        </section>
-        <section id="contact">
-            <h2>تواصل معنا</h2>
-            <p>للاستفسارات: info@baroon.com</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 البارون - جميع الحقوق محفوظة</p>
-    </footer>
+        <h1>البارون للقانون والتحكيم</h1>
+        <nav>
+            <a href="#about">من نحن</a>
+            <a href="#articles">المقالات</a>
+            <a href="#contact">اتصل بنا</a>
+            <a href="#cv">السيرة الذاتية</a>
+        </nav>
+    </header><section id="about">
+    <h2>من نحن</h2>
+    <p>مكتب البارون للقانون والتحكيم يقدم استشارات قانونية متخصصة في حماية المستهلك والقانون الخاص.</p>
+</section>
+
+<section id="cv">
+    <h2>السيرة الذاتية</h2>
+    <p>ليث خلف عبد النبي الفالح، باحث قانوني ومحامي متدرب متخصص في القانون الخاص وحماية المستهلك.</p>
+    <p>رقم الهاتف: 00962787219680</p>
+</section>
+
+<section id="articles">
+    <h2>المقالات القانونية</h2>
+    <a href="#" class="button">مقال عن حقوق المستهلك</a>
+    <a href="#" class="button">كيفية صياغة العقود</a>
+</section>
+
+<section id="contact">
+    <h2>اتصل بنا</h2>
+    <form>
+        <input type="text" placeholder="الاسم" required><br>
+        <input type="email" placeholder="البريد الإلكتروني" required><br>
+        <textarea placeholder="الرسالة" rows="4" required></textarea><br>
+        <button type="submit" class="button">إرسال</button>
+    </form>
+</section>
+
+<footer>
+    <p>جميع الحقوق محفوظة © 2025 - البارون للقانون والتحكيم</p>
+</footer>
+
 </body>
 </html>
