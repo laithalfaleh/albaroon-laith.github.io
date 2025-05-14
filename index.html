@@ -1,92 +1,50 @@
-<!DOCTYPE html><html lang="ar">
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>البارون للقانون والتحكيم</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 20px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 18px;
-        }
-        .button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            margin: 10px;
-            border-radius: 12px;
-            text-decoration: none;
-            display: inline-block;
-        }
-        .button:hover {
-            background-color: #45a049;
-        }
-        section {
-            margin: 20px;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            margin-top: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
     <header>
-        <h1>البارون للقانون والتحكيم</h1>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="شعار البارون للقانون والتحكيم">
+            <div class="titles">
+                <h1>البارون للقانون والتحكيم</h1>
+                <p>إدارة: المستشار المحامي ليث الفالح</p>
+            </div>
+        </div>
         <nav>
-            <a href="#about" target="_blank">من نحن</a>
-            <a href="#articles" target="_blank">المقالات</a>
-            <a href="#contact" target="_blank">اتصل بنا</a>
-            <a href="#cv" target="_blank">السيرة الذاتية</a>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="about.html">من نحن</a></li>
+                <li><a href="articles.html">المقالات</a></li>
+                <li><a href="services.html">الخدمات</a></li>
+                <li><a href="contact.html">اتصل بنا</a></li>
+            </ul>
         </nav>
-    </header><section id="about">
-    <h2>من نحن</h2>
-    <p>مكتب البارون للقانون والتحكيم يقدم استشارات قانونية متخصصة في حماية المستهلك والقانون الخاص.</p>
-</section>
+    </header>
 
-<section id="cv">
-    <h2>السيرة الذاتية</h2>
-    <p>ليث خلف عبد النبي الفالح، باحث قانوني ومحامي متدرب متخصص في القانون الخاص وحماية المستهلك.</p>
-    <p>رقم الهاتف: 00962787219680</p>
-</section>
+    <main>
+        <section class="hero">
+            <h2>مرحباً بكم في مكتب البارون للقانون والتحكيم</h2>
+            <p>مكتب متخصص في تقديم الاستشارات القانونية وحلول التحكيم الدولي</p>
+        </section>
 
-<section id="articles">
-    <h2>المقالات القانونية</h2>
-    <a href="article1.html" class="button" target="_blank">مقال عن حقوق المستهلك</a>
-    <a href="article2.html" class="button" target="_blank">كيفية صياغة العقود</a>
-</section>
+        <section class="latest-articles">
+            <h3>أحدث المقالات</h3>
+            <div class="article-card">
+                <h4>التعديلات الجديدة على قانون التحكيم الأردني</h4>
+                <p>تحليل مفصل للتعديلات القانونية لعام 2023...</p>
+                <a href="articles.html#article1">اقرأ المزيد</a>
+            </div>
+        </section>
+    </main>
 
-<section id="contact">
-    <h2>اتصل بنا</h2>
-    <form>
-        <input type="text" placeholder="الاسم" required><br>
-        <input type="email" placeholder="البريد الإلكتروني" required><br>
-        <textarea placeholder="الرسالة" rows="4" required></textarea><br>
-        <button type="submit" class="button">إرسال</button>
-    </form>
-</section>
-
-<footer>
-    <p>جميع الحقوق محفوظة © 2025 - البارون للقانون والتحكيم</p>
-</footer>
-
+    <footer>
+        <p>© 2023 البارون للقانون والتحكيم. جميع الحقوق محفوظة</p>
+        <p>تصميم وتطوير: فريق البارون</p>
+    </footer>
 </body>
 </html>
